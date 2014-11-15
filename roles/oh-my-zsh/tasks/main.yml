@@ -1,0 +1,24 @@
+- name: Installing oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
+  git: repo=https://github.com/robbyrussell/oh-my-zsh dest=~/.oh-my-zsh
+
+- name: Creating new ~/.zshrc
+  command: cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+
+# - name: be sure login shell is zsh
+#   command: dscl localhost -read Local/Default/Users/$USER UserShell | cut -d' ' -f2
+#   register: resultsh
+#
+# - name: be sure homebrew zsh is in the /etc/shells
+#   command: grep '^/usr/local/bin/zsh$' /etc/shells
+#   register: zsh_exists_in_etc_shells
+#   changed_when: false
+#   failed_when: zsh_exists_in_etc_shells.rc not in [0, 1]
+#
+# - name: insert the homebrew zsh to /etc/shells
+#   lineinfile: dest=/etc/shells line=/usr/local/bin/zsh state=present owner=root
+#   when: zsh_exists_in_etc_shells.rc == 1
+#   sudo: yes
+#
+# - name: change shell to zsh
+#   command: chsh -s /usr/local/bin/zsh
+#   when: resultsh.stdout.find('/usr/bin/zsh') == -1

@@ -1,0 +1,22 @@
+homebrew_taps:
+  - peco/peco
+
+homebrew_packages:
+  - { name: ansible }
+  - { name: zsh }
+  - { name: git }
+  - { name: vim }
+  - { name: tig }
+  - { name: mosh }
+  - { name: ack }
+  - { name: go }
+  - { name: rbenv }
+  - { name: gist }
+  - { name: hub }
+  - { name: ag }
+  - { name: cmigemo }
+  - { name: hg }
+  - { name: cask }
+  - { name: p7zip }
+  - { name: peco }
+  - { name: tmux }
