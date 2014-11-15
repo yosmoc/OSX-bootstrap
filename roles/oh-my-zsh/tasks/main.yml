@@ -4,6 +4,12 @@
 - name: Creating new ~/.zshrc
   command: cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
+- name: copy peco setting to .oh-my-zsh/custom
+  template: src=peco.zsh dest=~/.oh-my-zsh/custom/ mode=0644
+
+- name: source .zshrc
+  action: shell source ~/.zshrc
+
 # - name: be sure login shell is zsh
 #   command: dscl localhost -read Local/Default/Users/$USER UserShell | cut -d' ' -f2
 #   register: resultsh
