@@ -1,0 +1,19 @@
+homebrew_cask_packages:
+  - atom
+  - firefox
+  - iterm2
+  - google-chrome
+  - google-japanese-ime
+  - dropbox
+  - kobito
+  - skype
+  - karabiner
+  - appcleaner
+  - spotify
+  - anki
+  - alfred
+  - vlc
+  - virtualbox
+  - vagrant
+  - keepassx
+  - slack
