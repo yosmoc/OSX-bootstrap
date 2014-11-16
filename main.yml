@@ -6,3 +6,5 @@
     - homebrew
     - homebrew-cask
     - oh-my-zsh
+    - git
+    - ghq
