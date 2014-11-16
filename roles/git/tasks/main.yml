@@ -1,1 +1,2 @@
-git config --global ghq.root $HOME/src
+- name: Set ghq.root to $GOPATH/src
+  command: git config --global ghq.root $GOPATH/src
