@@ -1,5 +1,6 @@
 homebrew_taps:
   - peco/peco
+  - motemen/ghq
 
 homebrew_packages:
   - { name: ansible }
@@ -20,3 +21,4 @@ homebrew_packages:
   - { name: p7zip }
   - { name: peco }
   - { name: tmux }
+  - { name: ghq }
