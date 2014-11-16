@@ -22,3 +22,4 @@ homebrew_packages:
   - { name: peco }
   - { name: tmux }
   - { name: ghq }
+  - { name: reattach-to-user-namespace }
