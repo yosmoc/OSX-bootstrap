@@ -1,0 +1,5 @@
+- name: Install github-list-starred
+  command: go get github.com/motemen/github-list-starred
+
+- name: Import github starred repository
+  command: github-list-starred samurai20000 | ghq import
