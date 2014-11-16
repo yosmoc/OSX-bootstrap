@@ -17,6 +17,11 @@ See http://brew.sh/
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
 ```
 
+## Install ansible
+```
+brew install ansible
+```
+
 ## Usage
 ```
 ansible-playbool main.yml
