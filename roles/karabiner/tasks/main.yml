@@ -1,0 +1,4 @@
+- name: copy setting
+  copy: src=org.pqrs.Karabiner.plist dest=~/Library/Preferences
+  notify:
+    - reload the karabiner xml
