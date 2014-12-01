@@ -12,6 +12,7 @@ homebrew_packages:
   - { name: ack }
   - { name: go }
   - { name: rbenv }
+  - { name: ruby-build }
   - { name: gist }
   - { name: hub }
   - { name: ag }
