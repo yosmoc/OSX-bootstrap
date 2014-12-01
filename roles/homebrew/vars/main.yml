@@ -17,6 +17,7 @@ homebrew_packages:
   - { name: ag }
   - { name: cmigemo }
   - { name: hg }
+  - { name: emacs }
   - { name: cask }
   - { name: p7zip }
   - { name: peco }
