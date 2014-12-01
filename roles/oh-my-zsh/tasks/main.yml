@@ -3,6 +3,7 @@
 
 - name: Creating new ~/.zshrc
   command: cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+  copy: src=~/.oh-my-zsh/templates/zshrc.zsh-template dest=~/.zshrc
 
 - name: copy peco setting to .oh-my-zsh/custom
   template: src=peco.zsh dest=~/.oh-my-zsh/custom/ mode=0644
