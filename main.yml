@@ -10,3 +10,14 @@
     - ghq
     - tmux
     - karabiner
+    - emacs
+
+  vars_prompt:
+    - name: "user_name"
+      prompt: "Please enter your name (ex. Haruomi Hoshono)"
+      private: no
+
+    - name: "email"
+      prompt: "please enter your email address"
+      private: no
+    

@@ -1,0 +1,25 @@
+- name: copy .emacs.el
+  template: src=.emacs.el.j2 dest=~/.emacs.el mode=0644
+ 
+- name: create .emacs.d
+  file: path={{ dot_emacs }} state=directory
+ 
+- name: copy Cask
+  template: src=Cask.j2 dest={{ dot_emacs }}/Cask mode=0644
+ 
+- name: install packages
+  command: cask install chdir={{ dot_emacs }}
+ 
+- name: create .emacs.d/elisp
+  file: path={{ dot_emacs }}/elisp state=directory
+ 
+- name: find go-mode.el and go-mode-load.el
+  shell: find /usr/local -name 'go-mode*' | xargs -J% cp % {{ dot_emacs }}/elisp
+ 
+- name: copy configuration files
+  copy: src=conf dest={{ dot_emacs }}
+
+- name: copy username, mail address config
+  template: src=30_username.el.j2 dest={{ dot_emacs }}/conf/30_username.el mode=0644
+
+
