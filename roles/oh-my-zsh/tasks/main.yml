@@ -16,6 +16,9 @@
 
 - name: source .zshrc
   action: shell source ~/.zshrc
+  shell: source ~/.zshrc
+  # TODO: why error occurs?
+  ignore_errors: yes
 
 # - name: be sure login shell is zsh
 #   command: dscl localhost -read Local/Default/Users/$USER UserShell | cut -d' ' -f2
