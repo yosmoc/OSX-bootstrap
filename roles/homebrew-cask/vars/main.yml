@@ -17,3 +17,4 @@ homebrew_cask_packages:
   - vagrant
   - keepassx
   - slack
+  - eye-fi
