@@ -13,6 +13,7 @@ homebrew_packages:
   - { name: go }
   - { name: rbenv }
   - { name: ruby-build }
+  - { name: readline }
   - { name: gist }
   - { name: hub }
   - { name: ag }
@@ -25,3 +26,8 @@ homebrew_packages:
   - { name: tmux }
   - { name: ghq }
   - { name: reattach-to-user-namespace }
+  - { name: lame }
+  - { name: sox }
+  - { name: heroku-toolbelt }
+  - { name: node }
+
