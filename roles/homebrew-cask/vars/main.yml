@@ -18,3 +18,7 @@ homebrew_cask_packages:
   - keepassx
   - slack
   - eye-fi
+  - mapture
+  - github
+  - maczip4win
+  - libreoffice
