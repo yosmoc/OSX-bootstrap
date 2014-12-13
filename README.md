@@ -24,5 +24,5 @@ brew install ansible
 
 ## Usage
 ```
-ansible-playbool main.yml
+ansible-playbook main.yml
 ```
