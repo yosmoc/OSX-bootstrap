@@ -22,3 +22,4 @@ homebrew_cask_packages:
   - github
   - maczip4win
   - libreoffice
+  - evernote
