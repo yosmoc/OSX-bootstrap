@@ -24,3 +24,4 @@ homebrew_cask_packages:
   - libreoffice
   - evernote
   - audacity
+  - ltspice
