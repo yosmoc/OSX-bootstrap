@@ -30,4 +30,9 @@ homebrew_packages:
   - { name: sox }
   - { name: heroku-toolbelt }
   - { name: node }
+  - { name: youtube-dl }
+  - { name: ffmpeg,
+      install_options: with-tools, enable-pthreads, enable-libx264, enable-libfaac, enable-libmp3lame,
+                       enable-libtheora, enable-libvorbis, enable-libvpx, enable-libxvid, enable-libfaad
+    }
 
