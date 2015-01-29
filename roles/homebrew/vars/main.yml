@@ -35,4 +35,4 @@ homebrew_packages:
       install_options: with-tools, enable-pthreads, enable-libx264, enable-libfaac, enable-libmp3lame,
                        enable-libtheora, enable-libvorbis, enable-libvpx, enable-libxvid, enable-libfaad
     }
-
+  - { name: imagemagick }
