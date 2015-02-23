@@ -36,3 +36,4 @@ homebrew_packages:
                        enable-libtheora, enable-libvorbis, enable-libvpx, enable-libxvid, enable-libfaad
     }
   - { name: imagemagick }
+  - { name: gdb }
