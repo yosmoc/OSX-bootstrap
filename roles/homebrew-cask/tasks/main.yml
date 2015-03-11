@@ -1,3 +1,6 @@
 - name: brew cask install packages
   homebrew_cask: name={{ item }} state=present
   with_items: homebrew_cask_packages
+
+- name: update cask packages
+  shell: for c in `brew cask list`; do ! brew cask info $c | grep -qF "Not installed" || brew cask install $c; done
