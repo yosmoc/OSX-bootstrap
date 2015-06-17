@@ -37,3 +37,4 @@ homebrew_packages:
     }
   - { name: imagemagick }
   - { name: gdb }
+  - { name: boot2docker }
