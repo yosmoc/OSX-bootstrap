@@ -16,26 +16,22 @@
 - name: copy rbenv setting to .oh-my-zsh/custom
   template: src=rbenv.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
-- name: source .zshrc
-  shell: source ~/.zshrc
-  # TODO: why error occurs?
-  ignore_errors: yes
+- name: be sure login shell is zsh
+  command: dscl localhost -read Local/Default/Users/$USER UserShell | cut -d' ' -f2
+  register: resultsh
 
-# - name: be sure login shell is zsh
-#   command: dscl localhost -read Local/Default/Users/$USER UserShell | cut -d' ' -f2
-#   register: resultsh
-#
-# - name: be sure homebrew zsh is in the /etc/shells
-#   command: grep '^/usr/local/bin/zsh$' /etc/shells
-#   register: zsh_exists_in_etc_shells
-#   changed_when: false
-#   failed_when: zsh_exists_in_etc_shells.rc not in [0, 1]
-#
-# - name: insert the homebrew zsh to /etc/shells
-#   lineinfile: dest=/etc/shells line=/usr/local/bin/zsh state=present owner=root
-#   when: zsh_exists_in_etc_shells.rc == 1
-#   sudo: yes
-#
-# - name: change shell to zsh
-#   command: chsh -s /usr/local/bin/zsh
-#   when: resultsh.stdout.find('/usr/bin/zsh') == -1
+- name: be sure homebrew zsh is in the /etc/shells
+  command: grep '^/usr/local/bin/zsh$' /etc/shells
+  register: zsh_exists_in_etc_shells
+  changed_when: false
+  failed_when: zsh_exists_in_etc_shells.rc not in [0, 1]
+
+- name: insert the homebrew zsh to /etc/shells
+  lineinfile: dest=/etc/shells line=/usr/local/bin/zsh
+  when: zsh_exists_in_etc_shells.rc == 1
+  sudo: yes
+
+- name: change shell to zsh
+  command: chsh -s /usr/local/bin/zsh
+  when: resultsh.stdout.find('/usr/local/bin/zsh') == -1
+  sudo: yes
