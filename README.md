@@ -24,5 +24,5 @@ brew install ansible
 
 ## Usage
 ```
-ansible-playbook main.yml
+ansible-playbook -i hosts main.yml -K
 ```
