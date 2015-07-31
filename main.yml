@@ -11,6 +11,7 @@
     - tmux
     - karabiner
     - emacs
+    - appstore
 
   vars_prompt:
     - name: "user_name"
