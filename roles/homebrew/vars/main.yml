@@ -1,6 +1,7 @@
 homebrew_taps:
   - peco/peco
   - motemen/ghq
+  - caskroom/cask
 
 homebrew_packages:
   - { name: ansible }
@@ -39,3 +40,4 @@ homebrew_packages:
   - { name: gdb }
   - { name: boot2docker }
   - { name: wget }
+  - { name: brew-cask }
