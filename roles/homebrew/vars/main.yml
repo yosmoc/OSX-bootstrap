@@ -38,6 +38,5 @@ homebrew_packages:
     }
   - { name: imagemagick }
   - { name: gdb }
-  - { name: boot2docker }
   - { name: wget }
   - { name: brew-cask }
