@@ -20,8 +20,10 @@ homebrew_packages:
   - { name: ag }
   - { name: cmigemo }
   - { name: hg }
-  - { name: emacs }
   - { name: cask }
+  - { name: emacs,
+      install_options: with-cocoa, japanese
+    }
   - { name: p7zip }
   - { name: peco }
   - { name: tmux }
