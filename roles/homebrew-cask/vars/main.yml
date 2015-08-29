@@ -16,6 +16,7 @@ homebrew_cask_packages:
   - virtualbox
   - vagrant
   - keepassx
+  - keyboard-cleaner
   - slack
   - eye-fi
   - mapture
