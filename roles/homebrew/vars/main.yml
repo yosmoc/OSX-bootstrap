@@ -1,5 +1,4 @@
 homebrew_taps:
-  - peco/peco
   - motemen/ghq
   - caskroom/cask
 
