@@ -8,7 +8,7 @@
 
 ## Install Xcode
 ```
-xcode-select —install
+xcode-select -—install
 ```
 
 ## Install homebrew
