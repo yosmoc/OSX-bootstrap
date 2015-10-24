@@ -17,6 +17,7 @@ homebrew_cask_packages:
   - vagrant
   - keepassx
   - keyboard-cleaner
+  - kindle
   - slack
   - eye-fi
   - mapture
