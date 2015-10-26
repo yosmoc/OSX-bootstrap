@@ -31,7 +31,7 @@ homebrew_packages:
   - { name: lame }
   - { name: sox }
   - { name: heroku-toolbelt }
-  - { name: nodebrew }
+  - { name: node }
   - { name: youtube-dl }
   - { name: ffmpeg,
       install_options: with-tools, enable-pthreads, enable-libx264, enable-libfaac, enable-libmp3lame,
