@@ -1,5 +1,6 @@
 homebrew_cask_packages:
   - atom
+  - electron
   - firefox
   - iterm2
   - google-chrome
