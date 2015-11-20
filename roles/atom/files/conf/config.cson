@@ -9,3 +9,6 @@
     fontSize: 11
   autosave:
     enabled: true
+  "save-session":
+    dataSaveFolder: "/Users/yoshi/.atom/packages/save-session/projects"
+  "autocomplete-plus": {}
