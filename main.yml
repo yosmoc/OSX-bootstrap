@@ -12,6 +12,7 @@
     - karabiner
     - emacs
     - appstore
+    - atom
 
   vars_prompt:
     - name: "user_name"
@@ -21,4 +22,3 @@
     - name: "email"
       prompt: "please enter your email address"
       private: no
-    
