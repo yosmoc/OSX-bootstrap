@@ -4,6 +4,8 @@ packages:
   - atom-beautify
   - atom-copy-on-select
   - atomic-emacs
+  - autocomplete-plus
+  - autocomplete-emoji
   - file-icons
   - go-plus
   - git-plus
