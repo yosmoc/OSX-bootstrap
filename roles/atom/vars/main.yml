@@ -3,9 +3,13 @@ dot_atom: ~/.atom
 packages:
   - atom-beautify
   - atom-copy-on-select
+  - atom-jshint
+  - atom-html-preview
   - atomic-emacs
   - autocomplete-plus
   - autocomplete-emoji
+  - autocomplete-go
+  - autocomplete-ruby
   - file-icons
   - go-plus
   - git-plus
