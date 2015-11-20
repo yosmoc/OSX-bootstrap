@@ -15,3 +15,5 @@
   "save-session":
     dataSaveFolder: "/Users/yoshi/.atom/packages/save-session/projects"
   "autocomplete-plus": {}
+  "atom-beautify":
+    _analyticsUserId: "da69c234-3647-47a4-9d7a-4d56acb9dcf4"
