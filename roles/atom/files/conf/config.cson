@@ -3,7 +3,10 @@
     userId: "33582a95-1826-d00b-6d5e-eba01cd628c7"
   welcome:
     showOnStartup: false
-  core: {}
+  core:
+    disabledPackages: [
+      "wrap-guide"
+    ]
   editor:
     invisibles: {}
     fontSize: 11
