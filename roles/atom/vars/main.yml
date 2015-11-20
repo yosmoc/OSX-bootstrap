@@ -1,0 +1,12 @@
+dot_atom: ~/.atom
+
+packages:
+  - atom-beautify
+  - atom-copy-on-select
+  - atomic-emacs
+  - file-icons
+  - go-plus
+  - git-plus
+  - minimap
+  - rubocop-auto-correct
+  - save-session
