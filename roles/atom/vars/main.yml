@@ -7,7 +7,7 @@ packages:
   - atom-html-preview
   - atomic-emacs
   - autocomplete-plus
-  - autocomplete-emoji
+  - autocomplete-emojis
   - autocomplete-go
   - autocomplete-ruby
   - file-icons
