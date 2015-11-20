@@ -1,0 +1,6 @@
+- name: install packages
+  command: apm install {{ item }}
+  with_items: packages
+
+- name: copy configuration files
+  copy: src=conf dest={{ dot_atom }}
