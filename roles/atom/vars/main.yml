@@ -9,6 +9,7 @@ packages:
   - autocomplete-plus
   - autocomplete-emojis
   - autocomplete-go
+  - autocomplete-paths
   - autocomplete-ruby
   - file-icons
   - go-plus
