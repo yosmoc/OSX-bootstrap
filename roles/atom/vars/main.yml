@@ -13,6 +13,8 @@ packages:
   - autocomplete-ruby
   - file-icons
   - go-plus
+  - gitignore-snippets
+  - git-history
   - git-plus
   - minimap
   - rubocop-auto-correct
