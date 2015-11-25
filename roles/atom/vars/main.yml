@@ -15,6 +15,7 @@ packages:
   - go-plus
   - gitignore-snippets
   - git-history
+  - git-log
   - git-plus
   - minimap
   - rubocop-auto-correct
