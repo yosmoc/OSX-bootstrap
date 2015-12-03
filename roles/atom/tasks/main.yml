@@ -3,4 +3,4 @@
   with_items: packages
 
 - name: copy configuration files
-  copy: src=conf dest={{ dot_atom }}
+  copy: src=conf/ dest={{ dot_atom }}
