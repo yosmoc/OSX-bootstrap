@@ -10,6 +10,7 @@
   editor:
     invisibles: {}
     fontSize: 11
+    showInvisibles: true
   autosave:
     enabled: true
   "save-session":
