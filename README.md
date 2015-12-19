@@ -1,7 +1,7 @@
 # Auto setup my Mac OS X
 
 ## Requirement
-- Mac OSX (I checked only for Yosemite)
+- Mac OSX (Yosemite or El Capitan)
 - homebrew
 - Ansbile
 
