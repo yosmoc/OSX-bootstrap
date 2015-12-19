@@ -13,6 +13,7 @@ packages:
   - autocomplete-ruby
   - file-icons
   - go-plus
+  - gist-it
   - gitignore-snippets
   - git-history
   - git-log
