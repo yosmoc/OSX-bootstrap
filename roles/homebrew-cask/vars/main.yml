@@ -6,7 +6,6 @@ homebrew_cask_packages:
   - google-chrome
   - google-japanese-ime
   - dropbox
-  - kobito
   - skype
   - karabiner
   - appcleaner
