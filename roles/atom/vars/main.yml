@@ -3,21 +3,21 @@ dot_atom: ~/.atom
 packages:
   - atom-beautify
   - atom-copy-on-select
-  - atom-jshint
   - atom-html-preview
+  - atom-jshint
   - atomic-emacs
-  - autocomplete-plus
   - autocomplete-emojis
   - autocomplete-go
   - autocomplete-paths
+  - autocomplete-plus
   - autocomplete-ruby
   - file-icons
-  - go-plus
   - gist-it
-  - gitignore-snippets
   - git-history
   - git-log
   - git-plus
+  - gitignore-snippets
+  - go-plus
   - minimap
   - rubocop-auto-correct
   - save-session

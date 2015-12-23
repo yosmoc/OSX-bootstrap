@@ -1,30 +1,30 @@
 homebrew_cask_packages:
+  - alfred
+  - anki
+  - appcleaner
   - atom
+  - dockertoolbox
+  - dropbox
   - electron
+  - evernote
+  - eye-fi
   - firefox
-  - iterm2
   - google-chrome
   - google-japanese-ime
-  - dropbox
-  - skype
+  - iterm2
   - karabiner
-  - appcleaner
-  - spotify
-  - anki
-  - alfred
-  - vlc
-  - virtualbox
-  - vagrant
   - keepassx
   - keyboard-cleaner
   - kindle
-  - slack
-  - eye-fi
-  - mapture
-  - maczip4win
   - libreoffice
-  - evernote
   - ltspice
-  - xmind
-  - dockertoolbox
+  - maczip4win
+  - mapture
   - shiftit
+  - skype
+  - slack
+  - spotify
+  - vagrant
+  - virtualbox
+  - vlc
+  - xmind

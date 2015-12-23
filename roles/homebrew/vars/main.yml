@@ -3,40 +3,40 @@ homebrew_taps:
   - caskroom/cask
 
 homebrew_packages:
-  - { name: ansible }
-  - { name: zsh }
-  - { name: git }
-  - { name: vim }
-  - { name: tig }
-  - { name: mosh }
   - { name: ack }
-  - { name: go }
-  - { name: rbenv }
-  - { name: ruby-build }
-  - { name: readline }
-  - { name: gist }
-  - { name: hub }
   - { name: ag }
-  - { name: cmigemo }
-  - { name: hg }
+  - { name: ansible }
+  - { name: brew-cask }
   - { name: cask }
+  - { name: cmigemo }
   - { name: emacs,
-      install_options: with-cocoa, japanese
-    }
+        install_options: with-cocoa, japanese
+  }
+  - { name: ffmpeg,
+    install_options: with-tools, enable-pthreads, enable-libx264, enable-libfaac, enable-libmp3lame,
+                     enable-libtheora, enable-libvorbis, enable-libvpx, enable-libxvid, enable-libfaad
+  }
+  - { name: ghq }
+  - { name: gist }
+  - { name: git }
+  - { name: go }
+  - { name: heroku-toolbelt }
+  - { name: hg }
+  - { name: hub }
+  - { name: imagemagick }
+  - { name: lame }
+  - { name: mosh }
+  - { name: node }
   - { name: p7zip }
   - { name: peco }
-  - { name: tmux }
-  - { name: ghq }
+  - { name: rbenv }
+  - { name: readline }
   - { name: reattach-to-user-namespace }
-  - { name: lame }
+  - { name: ruby-build }
   - { name: sox }
-  - { name: heroku-toolbelt }
-  - { name: node }
-  - { name: youtube-dl }
-  - { name: ffmpeg,
-      install_options: with-tools, enable-pthreads, enable-libx264, enable-libfaac, enable-libmp3lame,
-                       enable-libtheora, enable-libvorbis, enable-libvpx, enable-libxvid, enable-libfaad
-    }
-  - { name: imagemagick }
+  - { name: tig }
+  - { name: tmux }
+  - { name: vim }
   - { name: wget }
-  - { name: brew-cask }
+  - { name: youtube-dl }
+  - { name: zsh }
