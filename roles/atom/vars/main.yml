@@ -11,6 +11,7 @@ packages:
   - autocomplete-paths
   - autocomplete-plus
   - autocomplete-ruby
+  - compare-files
   - file-icons
   - gist-it
   - git-history
