@@ -17,6 +17,7 @@ homebrew_packages:
                      enable-libtheora, enable-libvorbis, enable-libvpx, enable-libxvid, enable-libfaad
   }
   - { name: ghq }
+  - { name: gibo }
   - { name: gist }
   - { name: git }
   - { name: go }
