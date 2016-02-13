@@ -32,9 +32,9 @@
 - name: insert the homebrew zsh to /etc/shells
   lineinfile: dest=/etc/shells line=/usr/local/bin/zsh
   when: zsh_exists_in_etc_shells.rc == 1
-  sudo: yes
+  become: yes
 
 - name: change shell to zsh
   command: chsh -s /usr/local/bin/zsh
   when: resultsh.stdout.find('/usr/local/bin/zsh') == -1
-  sudo: yes
+  become: yes
