@@ -21,6 +21,7 @@ homebrew_cask_packages:
   - ltspice
   - maczip4win
   - mapture
+  - pomodone
   - shiftit
   - skype
   - slack
