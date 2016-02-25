@@ -1,0 +1,5 @@
+- name: show all file in finder
+  command: defaults write com.apple.finder AppleShowAllFiles TRUE
+
+- name: kill finder
+  command: killall Finder

@@ -13,6 +13,7 @@
     - emacs
     - appstore
     - atom
+    - osx
 
   vars_prompt:
     - name: "user_name"
