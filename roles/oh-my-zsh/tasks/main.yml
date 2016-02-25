@@ -19,6 +19,9 @@
 - name: copy nodebrew setting to .oh-my-zsh/custom
   template: src=nodebrew.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
+- name: copy tmux setting to .oh-my-zsh/custom
+  template: src=tmux.zsh dest=~/.oh-my-zsh/custom/ mode=0644
+
 - name: be sure login shell is zsh
   command: dscl localhost -read Local/Default/Users/$USER UserShell | cut -d' ' -f2
   register: resultsh
