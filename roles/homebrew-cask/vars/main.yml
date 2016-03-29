@@ -10,6 +10,7 @@ homebrew_cask_packages:
   - evernote
   - eye-fi
   - firefox
+  - flux
   - google-chrome
   - google-japanese-ime
   - iterm2
