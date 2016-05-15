@@ -26,6 +26,7 @@ homebrew_packages:
   - { name: hub }
   - { name: imagemagick }
   - { name: lame }
+  - { name: mono }
   - { name: mosh }
   - { name: node }
   - { name: p7zip }
