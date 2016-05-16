@@ -32,6 +32,7 @@ homebrew_packages:
   - { name: p7zip }
   - { name: peco }
   - { name: pt }
+  - { name: python3 }
   - { name: rbenv }
   - { name: readline }
   - { name: reattach-to-user-namespace }
