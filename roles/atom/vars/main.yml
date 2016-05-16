@@ -10,6 +10,7 @@ packages:
   - autocomplete-go
   - autocomplete-paths
   - autocomplete-plus
+  - autocomplete-python
   - autocomplete-ruby
   - compare-files
   - file-icons
@@ -20,6 +21,7 @@ packages:
   - gitignore-snippets
   - go-plus
   - minimap
+  - python-tools
   - rubocop-auto-correct
   - save-session
   - script
