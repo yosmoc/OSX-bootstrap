@@ -21,6 +21,7 @@ packages:
   - gitignore-snippets
   - go-plus
   - minimap
+  - pylint
   - python-tools
   - rubocop-auto-correct
   - save-session
