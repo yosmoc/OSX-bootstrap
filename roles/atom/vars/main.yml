@@ -26,4 +26,5 @@ packages:
   - rubocop-auto-correct
   - save-session
   - script
+  - sublime-style-column-selection
   - sort-lines
