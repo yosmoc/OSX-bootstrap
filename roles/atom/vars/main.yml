@@ -13,6 +13,7 @@ packages:
   - autocomplete-python
   - autocomplete-ruby
   - compare-files
+  - editorconfig
   - file-icons
   - gist-it
   - git-history
