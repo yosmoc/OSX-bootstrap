@@ -21,8 +21,8 @@ packages:
   - git-plus
   - gitignore-snippets
   - go-plus
+  - linter-pylint
   - minimap
-  - pylint
   - python-tools
   - rubocop-auto-correct
   - save-session
