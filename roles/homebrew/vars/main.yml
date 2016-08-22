@@ -9,6 +9,7 @@ homebrew_packages:
   - { name: brew-cask }
   - { name: cask }
   - { name: cmigemo }
+  - { name: cpputest }
   - { name: emacs,
         install_options: with-cocoa, japanese
   }
