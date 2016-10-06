@@ -42,6 +42,7 @@ homebrew_packages:
   - { name: tig }
   - { name: tmux }
   - { name: vim }
+  - { name: watchman }
   - { name: wget }
   - { name: youtube-dl }
   - { name: zsh }
