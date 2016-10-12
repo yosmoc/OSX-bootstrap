@@ -7,7 +7,6 @@ homebrew_packages:
   - { name: ack }
   - { name: ag }
   - { name: ansible }
-  - { name: brew-cask }
   - { name: cask }
   - { name: cmigemo }
   - { name: cpputest }
