@@ -1,6 +1,7 @@
 homebrew_taps:
   - motemen/ghq
   - caskroom/cask
+  - caskroom/versions
 
 homebrew_packages:
   - { name: ack }

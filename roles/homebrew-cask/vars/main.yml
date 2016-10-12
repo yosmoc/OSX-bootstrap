@@ -6,6 +6,7 @@ homebrew_cask_packages:
   - audacity
   - dockertoolbox
   - dropbox
+  - eclipse-cpp
   - electron
   - evernote
   - eye-fi
@@ -14,6 +15,7 @@ homebrew_cask_packages:
   - google-chrome
   - google-japanese-ime
   - iterm2
+  - java6
   - karabiner
   - keepassx
   - keyboard-cleaner
