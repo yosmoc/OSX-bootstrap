@@ -24,6 +24,7 @@ homebrew_cask_packages:
   - ltspice
   - maczip4win
   - mapture
+  - pg-commander
   - pomodone
   - sequel-pro
   - shiftit
