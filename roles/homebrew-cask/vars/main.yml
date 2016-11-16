@@ -4,6 +4,7 @@ homebrew_cask_packages:
   - appcleaner
   - atom
   - audacity
+  - docker
   - dropbox
   - eclipse-cpp
   - electron
