@@ -23,6 +23,21 @@ brew install ansible
 ```
 
 ## Usage
+
+### run all roles
+
 ```
-ansible-playbook -i hosts main.yml -K
+$ ansible-playbook -i hosts main.yml -K
+```
+
+### run specific roles
+
+```
+$ ansible-playbook -i hosts main.yml -K --tags "homebrew,git"
+```
+
+### Run all tasks except specific roles
+
+```
+$ ansible-playbook -i hosts main.yml -K --skip-tags "homebrew,git"
 ```

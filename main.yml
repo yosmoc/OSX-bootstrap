@@ -3,17 +3,17 @@
   gather_facts: no
   become: no
   roles:
-    - homebrew
-    - homebrew-cask
-    - oh-my-zsh
-    - git
-    - ghq
-    - tmux
-    - karabiner
-    - emacs
-    - appstore
-    - atom
-    - osx
+    - { role: homebrew, tags: [ homebrew ] }
+    - { role: homebrew-cask, tags: [ homebrew-cask ] }
+    - { role: oh-my-zsh, tags: [ oh-my-zsh ] }
+    - { role: git, tags: [ git ] }
+    - { role: ghq, tags: [ ghq ] }
+    - { role: tmux, tags: [ tmux ] }
+    - { role: karabiner, tags: [ karabiner ] }
+    - { role: emacs, tags: [ emacs ] }
+    - { role: appstore, tags: [ appstore ] }
+    - { role: atom, tags: [ atom ] }
+    - { role: osx, tags: [ osx ] }
 
   vars_prompt:
     - name: "user_name"
