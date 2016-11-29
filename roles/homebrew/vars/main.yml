@@ -45,5 +45,6 @@ homebrew_packages:
   - { name: vim }
   - { name: watchman }
   - { name: wget }
+  - { name: yarn }
   - { name: youtube-dl }
   - { name: zsh }
