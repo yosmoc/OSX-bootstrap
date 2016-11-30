@@ -25,3 +25,18 @@ function peco-src () {
 }
 zle -N peco-src
 bindkey '^]' peco-src
+
+function peco-find-filedir() {
+    if git rev-parse 2> /dev/null; then
+        source_files=$(git ls-files; find . -type d -name !git)
+    else
+        source_files=$(find . -type f; find . -type d)
+    fi
+    selected_files=$(echo $source_files | peco --prompt "[find file]")
+
+    BUFFER="${BUFFER}$(echo $selected_files | tr '\n' ' ')"
+    CURSOR=$#BUFFER
+    zle redisplay
+}
+zle -N peco-find-filedir
+bindkey '^s' peco-find-filedir
