@@ -1,0 +1,5 @@
+- name: create .peco directory
+  file: path=~/.peco state=directory mode=0755
+
+- name: copy config.json
+  template: src=config.json.j2 dest=~/.peco/config.json mode=0644
