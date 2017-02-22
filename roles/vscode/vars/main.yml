@@ -1,0 +1,7 @@
+dot_vscode: ~/Library/Application Support/Code/User
+
+packages:
+  - donjayamanne.python
+  - lukehoban.Go
+  - hiro-sun.vscode-emacs
+  - PeterJausovec.vscode-docker

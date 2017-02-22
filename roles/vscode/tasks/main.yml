@@ -1,0 +1,9 @@
+- name: install packages
+  command: code --install-extension "{{ item }}"
+  with_items: "{{packages}}"
+
+- name: copy keybind file
+  copy: src=keybindings.json dest="{{ dot_vscode }}"
+
+- name: copy setting file
+  copy: src=settings.json dest="{{ dot_vscode }}"

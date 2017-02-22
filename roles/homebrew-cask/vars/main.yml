@@ -34,5 +34,6 @@ homebrew_cask_packages:
   - spotify
   - vagrant
   - virtualbox
+  - visual-studio-code
   - vlc
   - xmind

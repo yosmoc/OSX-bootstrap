@@ -14,6 +14,7 @@
     - { role: emacs, tags: [ emacs ] }
     - { role: appstore, tags: [ appstore ] }
     - { role: atom, tags: [ atom ] }
+    - { role: vscode, tags: [ vscode ] }
     - { role: osx, tags: [ osx ] }
 
   vars_prompt:
