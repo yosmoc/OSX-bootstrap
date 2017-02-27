@@ -28,6 +28,7 @@ homebrew_packages:
   - { name: hub }
   - { name: imagemagick }
   - { name: lame }
+  - { name: mas }
   - { name: mono }
   - { name: mosh }
   - { name: node }
