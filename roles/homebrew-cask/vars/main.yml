@@ -1,9 +1,7 @@
 homebrew_cask_packages:
-  - alfred
   - anki
   - appcleaner
   - atom
-  - audacity
   - docker
   - dropbox
   - eclipse-cpp
@@ -22,18 +20,13 @@ homebrew_cask_packages:
   - keyboard-cleaner
   - kindle
   - libreoffice
-  - ltspice
   - maczip4win
   - mapture
   - pg-commander
-  - pomodone
-  - sequel-pro
   - shiftit
   - skype
   - slack
-  - spotify
   - vagrant
   - virtualbox
   - visual-studio-code
   - vlc
-  - xmind

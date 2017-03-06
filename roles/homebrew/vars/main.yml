@@ -10,7 +10,6 @@ homebrew_packages:
   - { name: cask }
   - { name: cmigemo }
   - { name: coreutils }
-  - { name: cpputest }
   - { name: emacs,
         install_options: with-cocoa, japanese
   }
@@ -23,7 +22,6 @@ homebrew_packages:
   - { name: gist }
   - { name: git }
   - { name: go }
-  - { name: heroku-toolbelt }
   - { name: hg }
   - { name: hub }
   - { name: imagemagick }
