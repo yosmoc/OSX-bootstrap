@@ -9,6 +9,7 @@
     - { role: git, tags: [ git ] }
     - { role: ghq, tags: [ ghq ] }
     - { role: tmux, tags: [ tmux ] }
+    - { role: tig, tags: [ tig ] }
     - { role: peco, tags: [ peco ] }
     - { role: karabiner, tags: [ karabiner ] }
     - { role: emacs, tags: [ emacs ] }
