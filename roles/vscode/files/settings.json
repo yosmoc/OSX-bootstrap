@@ -3,4 +3,11 @@
     "workbench.welcome.enabled": false,
     "files.autoSave": "onFocusChange",
     "editor.renderIndentGuides": true,
+    "editor.minimap.enabled": true,
+    "git.autofetch": false,
+    "python.pythonPath": "/usr/bin/python3",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.editor.enablePreview": false,
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": true
 }

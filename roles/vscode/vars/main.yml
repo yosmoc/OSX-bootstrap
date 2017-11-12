@@ -1,7 +1,11 @@
 dot_vscode: ~/Library/Application Support/Code/User
 
 packages:
-  - donjayamanne.python
+  - ms-python.python
   - lukehoban.Go
-  - hiro-sun.vscode-emacs
-  - PeterJausovec.vscode-docker
+  - christian-kohler.path-intellisense
+  - dbaeumer.vscode-eslint
+  - ms-vscode.cpptools
+  - waderyan.gitblame
+  - ericmccarthy.vs-code-mark-point
+  - deerawan.vscode-dash
