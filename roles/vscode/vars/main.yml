@@ -9,3 +9,4 @@ packages:
   - waderyan.gitblame
   - ericmccarthy.vs-code-mark-point
   - deerawan.vscode-dash
+  - esbenp.prettier-vscode
