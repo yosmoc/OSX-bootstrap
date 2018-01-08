@@ -10,3 +10,5 @@ packages:
   - ericmccarthy.vs-code-mark-point
   - deerawan.vscode-dash
   - esbenp.prettier-vscode
+  - eg2.tslint
+  - msjsdiag.debugger-for-chrome
