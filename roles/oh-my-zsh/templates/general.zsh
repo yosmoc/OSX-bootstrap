@@ -3,3 +3,5 @@ alias -g B='`git branch | peco | sed -e "s/^\*[ ]*//g"`'
 alias ls="ls -a"
 alias t="tig"
 alias ta="tig --all"
+setopt correct
+function chpwd() { ls }
