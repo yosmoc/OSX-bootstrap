@@ -2,13 +2,15 @@ dot_vscode: ~/Library/Application Support/Code/User
 
 packages:
   - ms-python.python
-  - lukehoban.Go
+  - ms-vscode.go
+  - hiro-sun.vscode-emacs
   - christian-kohler.path-intellisense
   - dbaeumer.vscode-eslint
   - ms-vscode.cpptools
   - waderyan.gitblame
   - ericmccarthy.vs-code-mark-point
   - deerawan.vscode-dash
-  - esbenp.prettier-vscode
   - eg2.tslint
   - msjsdiag.debugger-for-chrome
+  - esbenp.prettier-vscode
+  - coenraads.bracket-pair-colorizer
