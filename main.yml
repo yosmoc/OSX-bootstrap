@@ -15,6 +15,7 @@
     - { role: emacs, tags: [ emacs ] }
     - { role: appstore, tags: [ appstore ] }
     - { role: atom, tags: [ atom ] }
+    - { role: vim, tags: [ vim ] }
     - { role: vscode, tags: [ vscode ] }
     - { role: osx, tags: [ osx ] }
 
