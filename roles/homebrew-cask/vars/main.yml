@@ -1,13 +1,11 @@
 homebrew_cask_packages:
   - anki
   - appcleaner
-  - atom
   - docker
+  - dash
   - dropbox
-  - eclipse-cpp
   - electron
   - evernote
-  - eye-fi
   - firefox
   - flux
   - google-chrome
@@ -15,18 +13,15 @@ homebrew_cask_packages:
   - google-japanese-ime
   - iterm2
   - java
-  - karabiner
+  - karabiner-elements
   - keepassx
   - keyboard-cleaner
   - kindle
   - libreoffice
   - maczip4win
   - mapture
-  - pg-commander
-  - shiftit
   - skype
   - slack
-  - vagrant
   - virtualbox
   - visual-studio-code
   - vlc
