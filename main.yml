@@ -5,16 +5,16 @@
   roles:
     - { role: homebrew, tags: [ homebrew ] }
     - { role: homebrew-cask, tags: [ homebrew-cask ] }
+    - { role: appstore, tags: [ appstore ] }
+    - { role: osx, tags: [ osx ] }
     - { role: oh-my-zsh, tags: [ oh-my-zsh ] }
     - { role: git, tags: [ git ] }
-    - { role: ghq, tags: [ ghq ] }
     - { role: tmux, tags: [ tmux ] }
     - { role: tig, tags: [ tig ] }
     - { role: peco, tags: [ peco ] }
-    - { role: appstore, tags: [ appstore ] }
     - { role: vim, tags: [ vim ] }
     - { role: vscode, tags: [ vscode ] }
-    - { role: osx, tags: [ osx ] }
+    - { role: ghq, tags: [ ghq ] }
 
   vars_prompt:
     - name: "user_name"
