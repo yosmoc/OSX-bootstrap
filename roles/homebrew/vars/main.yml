@@ -1,5 +1,4 @@
 homebrew_taps:
-  - motemen/ghq
   - caskroom/cask
   - caskroom/versions
 
