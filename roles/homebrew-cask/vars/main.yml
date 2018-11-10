@@ -1,6 +1,7 @@
 homebrew_cask_packages:
   - anki
   - appcleaner
+  - boostnote
   - docker
   - dash
   - dropbox
