@@ -5,7 +5,6 @@
   roles:
     - { role: homebrew, tags: [ homebrew ] }
     - { role: homebrew-cask, tags: [ homebrew-cask ] }
-    - { role: appstore, tags: [ appstore ] }
     - { role: osx, tags: [ osx ] }
     - { role: oh-my-zsh, tags: [ oh-my-zsh ] }
     - { role: git, tags: [ git ] }
