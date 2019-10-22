@@ -1,4 +1,5 @@
 export LANG=ja_JP.UTF-8
+export PATH=$PATH:$HOME/tools
 alias -g B='`git branch | peco | sed -e "s/^\*[ ]*//g"`'
 alias ls="ls -a"
 alias t="tig"
