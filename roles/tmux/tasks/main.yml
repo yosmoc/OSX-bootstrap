@@ -3,3 +3,7 @@
 
 - name: copy tmux-pbcopy
   copy: src=tmux-pbcopy dest=/usr/local/bin mode=0755
+
+- name: copy scripts
+  template: src="{{item.name}}" dest=~/tools/ mode=0755
+  with_items: "{{scripts}}"

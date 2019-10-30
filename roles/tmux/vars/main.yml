@@ -1,0 +1,4 @@
+scripts:
+  - { name: 12 }
+  - { name: 13 }
+  - { name: 22 }
