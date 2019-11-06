@@ -1,11 +1,23 @@
 [
     {
-        "key": "ctrl+x 1",
-        "command": "workbench.action.closeOtherEditors"
+        "key": "ctrl+left",
+        "command": "workbench.action.navigateBack"
     },
     {
-        "key": "ctrl+x 0",
-        "command": "workbench.action.closeActiveEditor"
+        "key": "alt+left",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+[IntlRo]",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+x ctrl+f",
+        "command": "workbench.action.files.openFile"
     },
     {
         "key": "ctrl+x ctrl+s",
@@ -16,16 +28,24 @@
         "command": "workbench.action.files.saveAll"
     },
     {
+        "key": "ctrl+x ctrl+w",
+        "command": "workbench.action.files.saveAs"
+    },
+    {
         "key": "ctrl+x s",
         "command": "workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+x 0",
+        "command": "workbench.action.closeActiveEditor"
     },
     {
         "key": "ctrl+x k",
         "command": "workbench.action.closeActiveEditor"
     },
     {
-        "key": "ctrl+x ctrl+f",
-        "command": "workbench.action.files.openFile"
+        "key": "ctrl+x 1",
+        "command": "workbench.action.closeOtherEditors"
     },
     {
         "key": "ctrl+x 3",
@@ -40,12 +60,62 @@
         "command": "workbench.action.quickOpen"
     },
     {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
         "key": "alt+x",
         "command": "workbench.action.showCommands"
     },
     {
         "key": "ctrl+l",
         "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+left",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+[IntlRo]",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "editor.action.insertLineAfter",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+e",
@@ -168,56 +238,6 @@
         "when": "globalMessageVisible"
     },
     {
-        "key": "ctrl+z",
-        "command": "undo",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+/",
-        "command": "undo",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+_",
-        "command": "undo",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+/",
-        "command": "redo",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+z",
-        "command": "redo",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+x u",
-        "command": "undo",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+_",
-        "command": "redo",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+f",
-        "command": "cursorRight",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "cursorLeft",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+n",
-        "command": "cursorDown",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "ctrl+p",
         "command": "workbench.action.quickOpenNavigatePrevious",
         "when": "inQuickOpen"
@@ -265,16 +285,6 @@
     {
         "key": "ctrl+y",
         "command": "editor.action.clipboardPasteAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+p",
-        "command": "cursorUp",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+a",
-        "command": "cursorHome",
         "when": "editorTextFocus"
     },
     {
