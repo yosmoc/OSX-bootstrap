@@ -7,3 +7,8 @@
 
 - name: copy setting file
   copy: src=settings.json dest="{{ dot_vscode }}"
+
+- name: copy snippet files
+  copy: src={{item.src}} dest="{{ dot_vscode }}/snippets"
+  with_filetree: files/snippets/
+  when: item.state == 'file'
