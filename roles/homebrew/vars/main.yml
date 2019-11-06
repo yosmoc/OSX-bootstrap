@@ -1,7 +1,3 @@
-homebrew_taps:
-  - caskroom/cask
-  - caskroom/versions
-
 homebrew_packages:
   - { name: ack }
   - { name: ag }
@@ -9,13 +5,6 @@ homebrew_packages:
   - { name: cask }
   - { name: cmigemo }
   - { name: coreutils }
-  - { name: emacs,
-        install_options: with-cocoa, japanese
-  }
-  - { name: ffmpeg,
-    install_options: with-tools, enable-pthreads, enable-libx264, enable-libfaac, enable-libmp3lame,
-                     enable-libtheora, enable-libvorbis, enable-libvpx, enable-libxvid, enable-libfaad
-  }
   - { name: ghq }
   - { name: gibo }
   - { name: gist }

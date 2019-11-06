@@ -1,6 +1,5 @@
 homebrew_cask_packages:
   - anki
-  - appcleaner
   - boostnote
   - docker
   - dash
@@ -10,8 +9,8 @@ homebrew_cask_packages:
   - firefox
   - flux
   - google-chrome
-  - google-drive
   - google-japanese-ime
+  - google-backup-and-sync
   - iterm2
   - java
   - karabiner-elements
@@ -25,4 +24,3 @@ homebrew_cask_packages:
   - slack
   - virtualbox
   - visual-studio-code
-  - vlc
