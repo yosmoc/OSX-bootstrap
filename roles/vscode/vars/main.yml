@@ -21,3 +21,5 @@ packages:
   - shardulm94.trailing-spaces
   - tushortz.python-extended-snippets
   - njpwerner.autodocstring
+  - jpoissonnier.vscode-styled-components
+  - xaver.clang-format
