@@ -11,6 +11,7 @@
     - { role: tmux, tags: [ tmux ] }
     - { role: tig, tags: [ tig ] }
     - { role: peco, tags: [ peco ] }
+    - { role: python, tags: [ python ] }
     - { role: vim, tags: [ vim ] }
     - { role: vscode, tags: [ vscode ] }
     - { role: ghq, tags: [ ghq ] }
