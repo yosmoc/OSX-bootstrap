@@ -16,11 +16,12 @@
 - name: copy rbenv setting to .oh-my-zsh/custom
   template: src=rbenv.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
-- name: copy nodebrew setting to .oh-my-zsh/custom
-  template: src=nodebrew.zsh dest=~/.oh-my-zsh/custom/ mode=0644
+- name: copy python setting to .oh-my-zsh/custom
+  template: src=python.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
 - name: copy tmux setting to .oh-my-zsh/custom
   template: src=tmux.zsh dest=~/.oh-my-zsh/custom/ mode=0644
+
 
 - name: copy android development setting to .oh-my-zsh/custom
   template: src=android.zsh dest=~/.oh-my-zsh/custom/ mode=0644

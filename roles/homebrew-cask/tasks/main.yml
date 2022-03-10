@@ -3,5 +3,5 @@
   with_items: "{{homebrew_cask_packages}}"
 
 - name: update cask packages
-  shell: for c in `brew cask list`; do ! brew cask info $c | grep -qF "Not installed" || brew cask install $c; done
+  shell: for c in `brew list --cask`; do ! brew info --cask $c | grep -qF "Not installed" || brew install --cask $c; done
   become: yes

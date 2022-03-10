@@ -5,15 +5,17 @@ homebrew_packages:
   - { name: cask }
   - { name: cmigemo }
   - { name: coreutils }
+  - { name: fff }
   - { name: ghq }
   - { name: gibo }
   - { name: gist }
   - { name: git }
+  - { name: git-lfs }
   - { name: go }
-  - { name: hg }
-  - { name: hub }
+  - { name: jq }
+  - { name: gh }
+  - { name: htop }
   - { name: imagemagick }
-  - { name: lame }
   - { name: mas }
   - { name: mono }
   - { name: mosh }
@@ -30,9 +32,9 @@ homebrew_packages:
   - { name: sox }
   - { name: tig }
   - { name: tmux }
+  - { name: terraform }
   - { name: vim }
   - { name: watchman }
   - { name: wget }
   - { name: yarn }
-  - { name: youtube-dl }
   - { name: zsh }

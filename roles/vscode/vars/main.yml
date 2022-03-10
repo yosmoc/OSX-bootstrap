@@ -2,18 +2,18 @@ dot_vscode: ~/Library/Application Support/Code/User
 
 packages:
   - ms-python.python
-  - ms-vscode.go
+  - golang.go
   - hiro-sun.vscode-emacs
   - christian-kohler.path-intellisense
   - dbaeumer.vscode-eslint
   - ms-vscode.cpptools
+  - ms-vscode-remote.remote-containers
+  - ms-vscode-remote.remote-ssh
   - waderyan.gitblame
   - ericmccarthy.vs-code-mark-point
   - deerawan.vscode-dash
-  - eg2.tslint
   - msjsdiag.debugger-for-chrome
   - esbenp.prettier-vscode
-  - coenraads.bracket-pair-colorizer
   - streetsidesoftware.code-spell-checker
   - streetsidesoftware.code-spell-checker-swedish
   - humao.rest-client
@@ -21,5 +21,15 @@ packages:
   - shardulm94.trailing-spaces
   - tushortz.python-extended-snippets
   - njpwerner.autodocstring
-  - jpoissonnier.vscode-styled-components
   - xaver.clang-format
+  - ms-azuretools.vscode-docker
+  - Rubymaniac.vscode-paste-and-indent
+  - jsynowiec.vscode-insertdatestring
+  - eamodio.gitlens
+  - satokaz.vscode-memo-life-for-you
+  - alefragnani.project-manager
+  - mushan.vscode-paste-image
+  - mtxr.sqltools
+  - mtxr.sqltools-driver-mysql
+  - mtxr.sqltools-driver-pg
+  - hashicorp.terraform

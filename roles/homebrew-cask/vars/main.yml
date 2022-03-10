@@ -10,7 +10,6 @@ homebrew_cask_packages:
   - flux
   - google-chrome
   - google-japanese-ime
-  - google-backup-and-sync
   - iterm2
   - java
   - karabiner-elements
@@ -19,7 +18,7 @@ homebrew_cask_packages:
   - kindle
   - libreoffice
   - maczip4win
-  - mapture
+  - raycast
   - skype
   - slack
   - virtualbox
