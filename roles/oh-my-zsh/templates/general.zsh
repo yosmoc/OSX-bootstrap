@@ -1,9 +1,13 @@
-export LANG=ja_JP.UTF-8
-export PATH=$PATH:$HOME/tools
-alias -g B='`git branch | peco | sed -e "s/^\*[ ]*//g"`'
-alias ls="ls -a"
+export LANG=en_US.UTF-8
+alias ls="ls -a --color=auto"
 alias t="tig"
 alias ta="tig --all"
+alias xclip="xclip -selection c"
+export PATH=$PATH:~/tools
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.yarn/bin
+export HOST=${HOST}
+export EDITOR=vim
 setopt correct
 function chpwd() { ls }
 setopt auto_pushd

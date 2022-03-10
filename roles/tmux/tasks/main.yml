@@ -1,6 +1,9 @@
 - name: copy .tmux.conf
   template: src=.tmux.conf.j2 dest=~/.tmux.conf mode=0644
 
+- name: Install tmux plugin manager
+  git: repo=https://github.com/tmux-plugins/tpm dest=~/.tmux/plugins/tpm
+
 - name: copy tmux-pbcopy
   copy: src=tmux-pbcopy dest=/usr/local/bin mode=0755
 

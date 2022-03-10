@@ -8,6 +8,7 @@
     - { role: osx, tags: [ osx ] }
     - { role: oh-my-zsh, tags: [ oh-my-zsh ] }
     - { role: git, tags: [ git ] }
+    - { role: go, tags: [ go ] }
     - { role: tmux, tags: [ tmux ] }
     - { role: tig, tags: [ tig ] }
     - { role: peco, tags: [ peco ] }
@@ -15,6 +16,7 @@
     - { role: vim, tags: [ vim ] }
     - { role: vscode, tags: [ vscode ] }
     - { role: ghq, tags: [ ghq ] }
+    - { role: fff, tags: [ fff ] }
 
   vars_prompt:
     - name: "user_name"

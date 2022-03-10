@@ -1,3 +1,8 @@
+# plugin manager
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+
 # prefix
 set-option -g prefix C-t
 
@@ -36,3 +41,6 @@ set-option -g default-terminal "screen-256color"
 # clipboard
 set-option -g default-command "reattach-to-user-namespace -l $SHELL"
 bind C-q run-shell 'reattach-to-user-namespace tmux-pbcopy'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run -b '~/.tmux/plugins/tpm/tpm'

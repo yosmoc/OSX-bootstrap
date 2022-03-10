@@ -1,0 +1,2 @@
+- name: copy fff setting to .oh-my-zsh/custom
+  template: src=fff.zsh dest=~/.oh-my-zsh/custom/ mode=0644

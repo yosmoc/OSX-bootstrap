@@ -1,17 +1,14 @@
 - name: Installing oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
   git: repo=https://github.com/robbyrussell/oh-my-zsh dest=~/.oh-my-zsh
 
-- name: Creating new ~/.zshrc
-  copy: src=~/.oh-my-zsh/templates/zshrc.zsh-template dest=~/.zshrc
+- name: copy .zshrc
+  template: src=.zshrc dest=~/.zshrc mode=0644
 
 - name: copy general setting to .oh-my-zsh/custom
   template: src=general.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
-- name: copy peco setting to .oh-my-zsh/custom
-  template: src=peco.zsh dest=~/.oh-my-zsh/custom/ mode=0644
-
-- name: copy golang setting to .oh-my-zsh/custom
-  template: src=go.zsh dest=~/.oh-my-zsh/custom/ mode=0644
+- name: copy general setting to .oh-my-zsh/ghc
+  template: src=ghc.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
 - name: copy rbenv setting to .oh-my-zsh/custom
   template: src=rbenv.zsh dest=~/.oh-my-zsh/custom/ mode=0644
@@ -19,29 +16,17 @@
 - name: copy python setting to .oh-my-zsh/custom
   template: src=python.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
-- name: copy tmux setting to .oh-my-zsh/custom
-  template: src=tmux.zsh dest=~/.oh-my-zsh/custom/ mode=0644
+- name: copy color setting to .oh-my-zsh/custom
+  template: src=color.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
+- name: copy rust setting to .oh-my-zsh/custom
+  template: src=rust.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
-- name: copy android development setting to .oh-my-zsh/custom
-  template: src=android.zsh dest=~/.oh-my-zsh/custom/ mode=0644
+- name: copy kubernetes setting to .oh-my-zsh/custom
+  template: src=kubernetes.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
-- name: be sure login shell is zsh
-  command: dscl localhost -read Local/Default/Users/$USER UserShell | cut -d' ' -f2
-  register: resultsh
+- name: copy keybinding setting to .oh-my-zsh/custom
+  template: src=keybinding.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
-- name: be sure homebrew zsh is in the /etc/shells
-  command: grep '^/usr/local/bin/zsh$' /etc/shells
-  register: zsh_exists_in_etc_shells
-  changed_when: false
-  failed_when: zsh_exists_in_etc_shells.rc not in [0, 1]
-
-- name: insert the homebrew zsh to /etc/shells
-  lineinfile: dest=/etc/shells line=/usr/local/bin/zsh
-  when: zsh_exists_in_etc_shells.rc == 1
-  become: yes
-
-- name: change shell to zsh
-  command: chsh -s /usr/local/bin/zsh
-  when: resultsh.stdout.find('/usr/local/bin/zsh') == -1
-  become: yes
+- name: copy custome theme to .oh-my-zsh/custom/themes
+  template: src=robbyrussell.zsh-theme dest=~/.oh-my-zsh/custom/themes/
