@@ -1,5 +1,5 @@
 - name: Set ghq.root to $GOPATH/src
-  git_config: name=ghq.root scope=global value=$GOPATH/src
+  git_config: name=ghq.root scope=global value="{{ lookup('env', 'GOPATH') }}/src"
 
 - name: set user.name
   git_config: name=user.name scope=global value="{{ user_name }}"
@@ -9,6 +9,7 @@
 
 - name: set commit.verbose
   git_config: name=commit.verbose scope=global value=true
-  
+
 - name: set rebase.autostash
   git_config: name=rebase.autostash scope=global value=true
+

@@ -1,5 +1,5 @@
 export LANG=en_US.UTF-8
-alias ls="ls -a --color=auto"
+alias ls="ls -aG"
 alias t="tig"
 alias ta="tig --all"
 alias xclip="xclip -selection c"

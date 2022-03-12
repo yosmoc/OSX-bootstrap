@@ -1,2 +1,11 @@
+- name: Tap a hashicorp Homebrew repository, state present
+  community.general.homebrew_tap:
+  name: hashicorp/tap
+
+- name: install terraform
+  community.general.homebrew:
+    name: terraform
+    state: present
+
 - name: copy terraform setting to .oh-my-zsh/custom
-  template: src=terraform.zsh dest=~/.oh-my-zsh/custom/ mode=0644
+  copy: src=terraform.zsh dest=~/.oh-my-zsh/custom/ mode=0644

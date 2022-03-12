@@ -1,9 +1,7 @@
 homebrew_packages:
-  - { name: ack }
   - { name: ag }
   - { name: ansible }
   - { name: cask }
-  - { name: cmigemo }
   - { name: coreutils }
   - { name: fff }
   - { name: ghq }
@@ -21,17 +19,11 @@ homebrew_packages:
   - { name: mosh }
   - { name: node }
   - { name: p7zip }
-  - { name: peco }
   - { name: postgresql }
   - { name: pt }
-  - { name: pyenv }
-  - { name: rbenv }
   - { name: readline }
   - { name: reattach-to-user-namespace }
-  - { name: ruby-build }
   - { name: sox }
-  - { name: tig }
-  - { name: tmux }
   - { name: terraform }
   - { name: vim }
   - { name: watchman }

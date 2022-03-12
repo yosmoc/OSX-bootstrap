@@ -1,6 +1,0 @@
-- name: install Mac App Store packages
-  command: mas install "{{ item }}"
-  with_items: "{{mas_packages}}"
-
-- name: upgrade Mac App Store packages
-  command: mas upgrade

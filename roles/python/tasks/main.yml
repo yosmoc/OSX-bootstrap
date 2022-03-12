@@ -3,3 +3,5 @@
     repo: 'https://github.com/pyenv/pyenv.git'
     dest: '~/.pyenv'
 
+- name: copy python setting to .oh-my-zsh/custom
+  copy: src=python.zsh dest=~/.oh-my-zsh/custom/ mode=0644

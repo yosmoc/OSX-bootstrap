@@ -1,2 +1,2 @@
 - name: copy go setting to .oh-my-zsh/custom
-  template: src=go.zsh dest=~/.oh-my-zsh/custom/ mode=0644
+  copy: src=go.zsh dest=~/.oh-my-zsh/custom/ mode=0644
