@@ -15,7 +15,6 @@ homebrew_packages:
   - { name: htop }
   - { name: imagemagick }
   - { name: mas }
-  - { name: mono }
   - { name: mosh }
   - { name: node }
   - { name: p7zip }
