@@ -1,22 +1,23 @@
 homebrew_cask_packages:
   - anki
-  - docker
+  - google-cloud-sdk
   - dash
   - electron
   - firefox
   - flux
+  - fuwari
   - google-chrome
-  - google-japanese-ime
+  - homebrew/cask-versions/google-chrome-beta
   - iterm2
-  - java
   - karabiner-elements
   - keepassx
   - keyboard-cleaner
   - kindle
   - libreoffice
   - maczip4win
+  - microsoft-teams
+  - obsidian
   - raycast
-  - skype
   - slack
-  - virtualbox
+  - spotify
   - visual-studio-code
