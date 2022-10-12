@@ -9,6 +9,7 @@ homebrew_packages:
   - { name: gist }
   - { name: git }
   - { name: git-lfs }
+  - { name: gh }
   - { name: go }
   - { name: jq }
   - { name: gh }
