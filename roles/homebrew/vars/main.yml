@@ -28,4 +28,5 @@ homebrew_packages:
   - { name: watchman }
   - { name: wget }
   - { name: yarn }
+  - { name: yabai }
   - { name: zsh }

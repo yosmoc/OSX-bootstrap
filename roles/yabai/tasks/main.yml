@@ -1,0 +1,5 @@
+- name: copy .yabairc
+  copy: src=.yabairc dest=~/.yabairc mode=0744
+
+- name: restart yabai
+  command: brew services restart yabai

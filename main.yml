@@ -17,6 +17,7 @@
     - { role: vscode, tags: [ vscode ] }
     - { role: ghq, tags: [ ghq ] }
     - { role: fff, tags: [ fff ] }
+    - { role: yabai, tags: [ yabai ] }
 
   vars_prompt:
     - name: "user_name"
