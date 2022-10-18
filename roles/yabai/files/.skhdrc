@@ -1,0 +1,9 @@
+# Moving windows
+alt - h : yabai -m window --warp west
+alt - j : yabai -m window --warp south
+alt - k : yabai -m window --warp north
+alt - l : yabai -m window --warp east
+
+# Rotate windows clockwise and anticlockwise
+alt - r: yabai -m space --rotate 270
+shift + alt - r: yabai -m space --rotate 90

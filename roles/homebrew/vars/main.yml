@@ -29,5 +29,6 @@ homebrew_packages:
   - { name: watchman }
   - { name: wget }
   - { name: yarn }
-  - { name: yabai }
+  - { name: koekeishiya/formulae/yabai }
+  - { name: koekeishiya/formulae/skhd }
   - { name: zsh }

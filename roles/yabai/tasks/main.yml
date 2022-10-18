@@ -1,5 +1,11 @@
 - name: copy .yabairc
   copy: src=.yabairc dest=~/.yabairc mode=0744
 
+- name: copy .skhdrc
+  copy: src=.skhdrc dest=~/.skhdrc mode=0644
+
 - name: restart yabai
   command: brew services restart yabai
+
+- name: restart skhd
+  command: brew services restart skhd
