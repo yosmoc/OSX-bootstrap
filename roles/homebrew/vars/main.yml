@@ -11,6 +11,7 @@ homebrew_packages:
   - { name: git-lfs }
   - { name: gh }
   - { name: go }
+  - { name: ijq }
   - { name: jq }
   - { name: gh }
   - { name: htop }
