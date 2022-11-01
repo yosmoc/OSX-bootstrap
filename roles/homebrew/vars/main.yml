@@ -32,4 +32,5 @@ homebrew_packages:
   - { name: yarn }
   - { name: koekeishiya/formulae/yabai }
   - { name: koekeishiya/formulae/skhd }
+  - { name: kubectl }
   - { name: zsh }
