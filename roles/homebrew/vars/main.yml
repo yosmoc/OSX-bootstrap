@@ -24,6 +24,7 @@ homebrew_packages:
   - { name: pt }
   - { name: readline }
   - { name: reattach-to-user-namespace }
+  - { name: rsync }
   - { name: sox }
   - { name: terraform }
   - { name: vim }
