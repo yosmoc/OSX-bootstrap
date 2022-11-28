@@ -13,3 +13,6 @@
 - name: set rebase.autostash
   git_config: name=rebase.autostash scope=global value=true
 
+- name: set push.autoSetupRemote
+  git_config: name=push.autoSetupRemote scope=global value=true
+
