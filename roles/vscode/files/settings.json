@@ -142,5 +142,6 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs":"active",
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
-    "terminal.integrated.scrollback": 1000000
+    "terminal.integrated.scrollback": 1000000,
+    "terminal.integrated.persistentSessionReviveProcess": "never"
 }
