@@ -7,9 +7,6 @@
 - name: copy general setting to .oh-my-zsh/custom
   copy: src=general.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
-- name: copy general setting to .oh-my-zsh/ghc
-  copy: src=ghc.zsh dest=~/.oh-my-zsh/custom/ mode=0644
-
 - name: copy color setting to .oh-my-zsh/custom
   copy: src=color.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
