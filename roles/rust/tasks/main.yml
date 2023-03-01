@@ -1,0 +1,5 @@
+- name: Install Rust
+  shell: curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSfy | sh
+
+- name: copy rust setting to .oh-my-zsh/custom
+  copy: src=rust.zsh dest=~/.oh-my-zsh/custom/ mode=0644

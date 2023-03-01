@@ -18,6 +18,7 @@
     - { role: ghq, tags: [ ghq ] }
     - { role: fff, tags: [ fff ] }
     - { role: yabai, tags: [ yabai ] }
+    - { role: rust, tags: [ rust ] }
 
   vars_prompt:
     - name: "user_name"
