@@ -13,8 +13,12 @@
 - name: copy kubernetes setting to .oh-my-zsh/custom
   copy: src=kubernetes.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
+- name: copy nvm settings to .oh-my-zsh/custom/
+  copy: src=nvm.zsh dest=~/.oh-my-zsh/custom/ mode=0644
+
 - name: copy keybinding setting to .oh-my-zsh/custom
   copy: src=keybinding.zsh dest=~/.oh-my-zsh/custom/ mode=0644
 
 - name: copy custom theme to .oh-my-zsh/custom/themes
   copy: src=robbyrussell.zsh-theme dest=~/.oh-my-zsh/custom/themes/
+

@@ -20,6 +20,7 @@ homebrew_packages:
   - { name: mas }
   - { name: mosh }
   - { name: node }
+  - { name: nvm}
   - { name: p7zip }
   - { name: postgresql }
   - { name: pt }
