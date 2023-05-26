@@ -21,3 +21,5 @@ homebrew_cask_packages:
   - slack
   - spotify
   - visual-studio-code
+  - visual-studio-code-insiders
+  - obsidian
