@@ -26,6 +26,7 @@ homebrew_packages:
   - { name: pt }
   - { name: readline }
   - { name: reattach-to-user-namespace }
+  - { name: rye }
   - { name: rsync }
   - { name: sox }
   - { name: terraform }
