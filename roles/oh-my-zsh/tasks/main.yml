@@ -1,6 +1,9 @@
 - name: Installing oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
   git: repo=https://github.com/robbyrussell/oh-my-zsh dest=~/.oh-my-zsh
 
+- name: Install zsh-autosuggestions
+  git: repo= https://github.com/zsh-users/zsh-autosuggestions dest=~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+
 - name: copy .zshrc
   copy: src=.zshrc dest=~/.zshrc mode=0644
 
