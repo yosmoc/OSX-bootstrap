@@ -143,5 +143,9 @@
     "editor.guides.bracketPairs":"active",
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
     "terminal.integrated.scrollback": 1000000,
-    "terminal.integrated.persistentSessionReviveProcess": "never"
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "copyOnSelect.copyOnKeyboardSelection": true,
+    "copyOnSelect.copyOnMouseSelection": true,
+    "copyOnSelect.trimStart": true,
+    "copyOnSelect.trimEnd": true
 }

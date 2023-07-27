@@ -5,6 +5,7 @@ packages:
   - golang.go
   - hiro-sun.vscode-emacs
   - christian-kohler.path-intellisense
+  - dinhani.copy-on-select
   - dbaeumer.vscode-eslint
   - ms-vscode.cpptools
   - ms-vscode-remote.remote-containers
@@ -32,4 +33,5 @@ packages:
   - mtxr.sqltools
   - mtxr.sqltools-driver-mysql
   - mtxr.sqltools-driver-pg
+  - ms-toolsai.datawrangler
   - hashicorp.terraform
