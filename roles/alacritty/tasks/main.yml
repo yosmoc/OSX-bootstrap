@@ -1,0 +1,2 @@
+- name: copy alacritty setting to .config/alacritty/alacritty.yml
+  copy: src=alacritty.yml dest=~/.config/alacritty/ mode=0644
