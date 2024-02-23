@@ -3,13 +3,8 @@
     "workbench.welcome.enabled": false,
     "editor.copyWithSyntaxHighlighting": false,
     "files.autoSave": "onFocusChange",
-    "editor.renderIndentGuides": true,
     "editor.minimap.enabled": true,
     "git.autofetch": false,
-    "python.autoComplete.addBrackets": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.pycodestyleEnabled": true,
-    "python.formatting.provider": "black",
     "workbench.iconTheme": "vs-seti",
     "workbench.editor.enablePreview": false,
     "editor.renderWhitespace": "all",
@@ -17,6 +12,7 @@
     "editor.snippetSuggestions": "top",
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.quickSuggestionsDelay": 0,
+    "window.commandCenter": true,
     "search.exclude": {
         "**/.git": true,
         "**/node_modules": true,
@@ -47,16 +43,18 @@
     "[typescript]": {
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[typescriptreact]": {
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[python]": {
         "editor.formatOnSave": false,
-        "editor.formatOnPaste": true,
+        "editor.formatOnPaste": false,
+        "editor.formatOnType": false,
+        "editor.defaultFormatter": "ms-python.python",
     },
     "go.useLanguageServer": true,
     "[go]": {
@@ -77,6 +75,16 @@
     },
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[terraform]": {
+      "editor.defaultFormatter": "hashicorp.terraform",
+      "editor.formatOnSave": true,
+      "editor.formatOnSaveMode": "file"
+    },
+    "[terraform-vars]": {
+      "editor.defaultFormatter": "hashicorp.terraform",
+      "editor.formatOnSave": true,
+      "editor.formatOnSaveMode": "file"
     },
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -102,7 +110,8 @@
     "python.analysis.completeFunctionParens": true,
     "python.analysis.autoImportCompletions": true,
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
+        "*.ipynb": "jupyter-notebook",
+        "file:/**/*.parquet": "jupyter-data-wrangler"
     },
     "security.workspace.trust.untrustedFiles": "open",
     "notebook.cellToolbarLocation": {
@@ -111,7 +120,8 @@
     },
     "editor.fontSize": 12,
     "insertDateString.formatTime": "hh:mm",
-    "remote.containers.defaultExtensions": [
+    "files.insertFinalNewline": true,
+    "dev.containers.defaultExtensions": [
         "eamodio.gitlens",
         "Rubymaniac.vscode-paste-and-indent",
         "ericmccarthy.vs-code-mark-point",
@@ -142,10 +152,53 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs":"active",
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+    "editor.guides.indentation": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false,
+        "yaml": false
+    },
+    "editor.stickyScroll.enabled": true,
     "terminal.integrated.scrollback": 1000000,
-    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "python.analysis.typeCheckingMode": "basic",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.commandsToSkipShell": [
+      "-workbench.action.quickOpen",
+      "-workbench.action.showAllSymbols"
+    ],
+    "githubPullRequests.pullBranch": "never",
+    "editor.selectionClipboard": true,
+    "typeChallenges.workspaceFolder": "/Users/yoshihisa.mochihara/.typeChallenges",
+    "editor.largeFileOptimizations": false,
+    "playwright.reuseBrowser": false,
+    "screencastMode.onlyKeyboardShortcuts": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.emptySelectionClipboard": false,
+    "terminal.integrated.copyOnSelection": true,
+    "git.suggestSmartCommit": false,
+    "playwright.showTrace": false,
     "copyOnSelect.copyOnKeyboardSelection": true,
     "copyOnSelect.copyOnMouseSelection": true,
     "copyOnSelect.trimStart": true,
-    "copyOnSelect.trimEnd": true
+    "copyOnSelect.trimEnd": true,
+    "terminal.integrated.macOptionClickForcesSelection": true,
+    "[go][go.mod]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "gitlens.advanced.messages": {
+        "suppressBlameInvalidIgnoreRevsFileWarning": true
+    },
+    "codeQL.telemetry.enableTelemetry": false,
+    "workbench.tree.stickyScrollMaxItemCount": 10,
 }
