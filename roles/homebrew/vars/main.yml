@@ -9,14 +9,12 @@ homebrew_packages:
   - { name: gibo }
   - { name: gist }
   - { name: git }
-  - { name: git-lfs }
   - { name: gh }
   - { name: go }
   - { name: ijq }
   - { name: jq }
   - { name: gh }
   - { name: htop }
-  - { name: hadolint }
   - { name: imagemagick }
   - { name: mas }
   - { name: mosh }
@@ -30,11 +28,10 @@ homebrew_packages:
   - { name: rye }
   - { name: rsync }
   - { name: sox }
-  - { name: terraform }
+  - { name: tenv }
   - { name: vim }
   - { name: watchman }
   - { name: wget }
-  - { name: yarn }
   - { name: koekeishiya/formulae/yabai }
   - { name: koekeishiya/formulae/skhd }
   - { name: kubectl }
