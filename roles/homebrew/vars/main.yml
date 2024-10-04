@@ -39,3 +39,4 @@ homebrew_packages:
   - { name: koekeishiya/formulae/skhd }
   - { name: kubectl }
   - { name: zsh }
+  - { name: sheldon }

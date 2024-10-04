@@ -6,7 +6,7 @@
     - { role: homebrew, tags: [ homebrew ] }
     - { role: homebrew-cask, tags: [ homebrew-cask ] }
     - { role: osx, tags: [ osx ] }
-    - { role: oh-my-zsh, tags: [ oh-my-zsh ] }
+    - { role: zsh, tags: [ zsh ] }
     - { role: git, tags: [ git ] }
     - { role: go, tags: [ go ] }
     - { role: tmux, tags: [ tmux ] }

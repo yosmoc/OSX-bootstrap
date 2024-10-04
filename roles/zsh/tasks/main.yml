@@ -1,0 +1,16 @@
+- name: Install spaceship theme
+  shell: sheldon add spaceship --github spaceship-prompt/spaceship-prompt || true
+
+- name: Install zsh-autosuggestions
+  shell: sheldon add zsh-autosuggestions --github zsh-users/zsh-autosuggestions || true
+
+- name: copy .zshrc
+  copy: src=.zshrc dest=~/.zshrc mode=0644
+
+- name: copy zsh settings to ~/.zsh.d/
+  copy:
+    src: "{{ item }}"
+    dest: ~/.zsh.d/
+    mode: "0644"
+  with_fileglob:
+    - "*.zsh"
